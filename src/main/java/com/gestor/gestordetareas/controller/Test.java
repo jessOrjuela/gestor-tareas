@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class test {
+public class Test {
     @RequestMapping
     @ResponseBody
     public ResponseEntity<String> function(){

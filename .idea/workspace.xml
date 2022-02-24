@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74019646-3bd1-4772-8986-f556d777e022" name="Changes" comment="" />
+    <list default="true" id="74019646-3bd1-4772-8986-f556d777e022" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/GestordetareasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/GestordetareasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/bean/TaskBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/CreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/CreateTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/DeleteTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/DeleteTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/GetTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/GetTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/UpdateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/component/UpdateTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/configuration/configBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/configuration/ConfigBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/controller/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/controller/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/repository/TaskRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +26,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,6 +65,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="25Iun44qf9wD7CMW3Lbpl96eRf4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,19 +115,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gestor/gestordetareas/repository/TaskRepository.java</url>
-          <line>12</line>
-          <properties class="com.gestor.gestordetareas.repository.TaskRepository" method="encontraralgo">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

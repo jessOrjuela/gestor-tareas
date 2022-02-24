@@ -9,6 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,10 +33,11 @@ public class GestordetareasApplication implements CommandLineRunner {
 		saveTaskInBD();
 	}
 	private void saveTaskInBD(){
-		Task tarea1 = new Task("esta es una descripcion 1");
-		Task tarea2 = new Task("esta es una descripcion 2");
-		Task tarea3 = new Task("esta es una descripcion 3");
-		Task tarea4 = new Task("esta es una descripcion 4");
+		Task tarea1 = new Task("esta es una descripcion 1","OK");
+		Task tarea2 = new Task("esta es una descripcion 2","PAUSE");
+		Task tarea3 = new Task("esta es una descripcion 3","OK");
+		Task tarea4 = new Task("esta es una descripcion 4","OK");
+		//List<Task> list = new ArrayList<>();
 		List<Task> list= Arrays.asList(tarea1,tarea2,tarea3,tarea4);
 		list.stream().forEach(taskRepository::save);
 	}
